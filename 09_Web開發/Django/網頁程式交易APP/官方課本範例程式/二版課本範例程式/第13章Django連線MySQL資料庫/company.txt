@@ -1,0 +1,21 @@
+公司簡稱	簡稱	網址	員工人數	實收資本額(元)	TSE新產業_名稱	設立日期
+1101   	台泥         	http://www.taiwancement.com                                 	   810	    36921758690	水泥工業  	19501229
+1216   	統一         	http://www.uni-president.com.tw                             	  5475	    56820154210	食品工業  	19670825
+1476   	儒鴻         	http://www.eclat.com.tw                                     	 14155	     2689873640	紡織纖維  	19771128
+2105   	正新         	http://www.cst.com.tw                                       	  5716	    32414155360	橡膠工業  	19670101
+2301  	光寶         	http://www.liteon.com                                       	   568	     7008400030	          	19750602
+2303   	聯電         	http://www.umc.com                                          	 18458	   126243187150	半導體    	19800522
+2311   	日月光       	http://www.aseglobal.com                                    	 29390	    83037261990	半導體    	19840323
+2317   	鴻海         	http://www.foxconn.com                                      	  7612	   173287382620	其他電子業	19740220
+2324   	仁寶         	http://www.compal.com                                       	  6474	    44221526250	電腦及週邊	19840601
+2330   	台積電       	http://www.tsmc.com                                         	 41850	   259303804580	半導體    	19870221
+2354   	鴻準         	http://www.foxconntech.com.tw                               	   187	    14144851920	其他電子業	19900426
+2382   	廣達         	http://www.quantatw.com                                     	  5394	    38626274320	電腦及週邊	19880509
+2408   	南亞科       	http://www.nanya.com                                        	  2624	    27485658100	半導體    	19950304
+2409   	友達         	http://www.auo.com                                          	 23515	    96242451150	光電業    	19960812
+2454   	聯發科       	http://www.mediatek.com                                     	  6070	    15816033810	半導體    	19970528
+2474   	可成         	http://www.catcher-group.com                                	  3353	     7703910690	其他電子業	19841123
+3008   	大立光       	http://www.largan.com.tw                                    	  4672	     1341401970	光電業    	19870417
+3481   	群創         	http://www.innolux.com                                      	 34435	    99520783770	光電業    	20030114
+4938   	和碩         	http://www.pegatroncorp.com                                 	  7398	    25749448710	電腦及週邊	20070627
+9904   	寶成         	http://www.pouchen.com                                      	  3520	    29467872130	其他      	19690904

@@ -1,0 +1,21 @@
+﻿
+<!DOCTYPE html>
+<html>
+<head>
+<script type="text/javascript" src="E_6_8.js"></script>
+<link rel="stylesheet" href="E_6_8.css">
+<meta charset="UTF-8">
+</head>
+<body>
+<span>基金選擇：</span>
+<select id = "sel" onchange="UnitsCompute()">
+  <!--基金價格皆以2018/04/30之價格為範例 -->
+  <option value=27.78>貝萊德世界黃金基金</option>
+  <option value=9.03>安聯收益成長基金</option>
+  <option value=58.65>聯博-中國時機基金</option>
+</select><br>
+<span>購買金額： </span>
+<input type="text" id = "amt" name="amount" value = "10000">
+<span>換算單位數： </span><p id="result" color = "BlueViolet"></p>
+</body>
+</html>
