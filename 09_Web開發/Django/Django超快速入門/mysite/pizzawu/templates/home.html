@@ -1,10 +1,37 @@
-
 {% extends 'base.html'%}
-
 {% block content2 %}
-<h1>Hello,I'm pizza.</h1>
-<h2>測試你看不看的到!!!!!!!!</h2>
+
+
+
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">Github List</h1>
+    <p class="lead">快速尋找github用戶</p>
+  </div>
+</div>
+
+
+
+<div class="container">
+    <div class="row">
+        {% for i in api %}
+        <br><br>
+        <div class="col-sm">
+            <div class="card" style="width: 18rem;">
+                <img src="{{i.avatar_url}}" class="card-img-top" alt="Card image cap">
+                <div class="card-body">
+                    <h5 class="card-title">{{i.login}}</h5>
+                    <p class="card-text">{{i.login}}的Github</p>
+                    <a href="{{i.html_url}}" class="btn btn-primary">Github</a>
+                </div>
+            </div>
+            <br>
+        </div>
+        {% endfor %}
+    </div>
+</div>
 {% endblock %}
+
 
 
 

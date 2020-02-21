@@ -1,0 +1,34 @@
+{% extends 'base.html'%}
+{% block content2 %}
+
+
+
+
+    {% if notfound%}
+        <h1>發生錯誤，錯誤如下:</h1>
+        <h2>{{notfound}}</h2>
+    {% else %}
+        <h1>Search Result :<br><br></h1>
+
+        <div class="card" style="width: 18rem;">
+            <img src="{{user_info.avatar_url}}" class="card-img-top" alt="Card image cap">
+            <div class="card-body">
+                <h5 class="card-title">{{user_info.name}}</h5>
+                <p class="location">location:{{user_info.location}}的Github</p>
+                <p class="public_repos">public_repos:{{user_info.public_repos}}</p>
+                <p class="followers">followers:{{user_info.followers}}</p>
+                <p class="created_at">created_at:{{user_info.created_at}}</p>
+                <p class="updated_at">updated_at:{{user_info.updated_at}}</p>
+
+                
+                <a href="{{i.html_url}}" class="btn btn-primary">Github</a>
+            </div>
+        </div>
+    {% endif %}
+
+
+{% endblock %}
+
+
+
+
