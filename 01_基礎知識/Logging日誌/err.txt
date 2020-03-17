@@ -1,0 +1,12 @@
+Traceback (most recent call last):
+  File "<ipython-input-8-fa4b6fe6f1e9>", line 17, in <module>
+    passwd(i)
+  File "<ipython-input-8-fa4b6fe6f1e9>", line 9, in passwd
+    raise Exception("密碼長度小於5")
+Exception: 密碼長度小於5
+Traceback (most recent call last):
+  File "<ipython-input-8-fa4b6fe6f1e9>", line 17, in <module>
+    passwd(i)
+  File "<ipython-input-8-fa4b6fe6f1e9>", line 11, in passwd
+    raise Exception("密碼長度大於8")
+Exception: 密碼長度大於8
