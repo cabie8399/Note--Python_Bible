@@ -21,7 +21,7 @@ import sentry_sdk
 from sentry_sdk.integrations.django import DjangoIntegration
 
 sentry_sdk.init(
-    dsn="https://3xxxxxxxxxxxxxxxxxxxxxxxxxxx2b@sentry.io/4xxxxx69",
+    dsn="https://32e8bb3xxxxxxxxxxxxxxxxxxxxxxxxxec628ceac2b@sentry.io/4xxxxxx969",
     integrations=[DjangoIntegration()],
 
     # If you wish to associate users to errors (assuming you are using
@@ -95,7 +95,7 @@ INSTALLED_APPS = [
 
 
 sentry_sdk.init(
-    dsn="https://3xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx2b@sentry.io/4xxxxxxxxxxxxxxx",
+    dsn="https://3xxxxxxxxxxxxxxxxxxxxxxxxxxxx628ceac2b@sentry.io/4xxxxxxxxxxxxxx",
     integrations=[DjangoIntegration()],
 
     # If you wish to associate users to errors (assuming you are using
